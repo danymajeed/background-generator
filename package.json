@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js  && live-server"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,7 @@
     "url": "https://github.com/danymajeed/background-generator/issues"
   },
   "homepage": "https://github.com/danymajeed/background-generator#readme",
-  "dependencies": { 
-    "live-server": "^1.2.1",
-    "loadash": "^1.0.0"
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
